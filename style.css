@@ -1,0 +1,35 @@
+
+
+.note{
+	width: 200px;
+	height: 200px;
+	border: solid silver;
+	padding: 10px;
+	display: inline-block;
+	/*margin: 5px;*/
+
+
+}
+
+.container{
+	display: inline-block;
+	margin: 5px;
+}
+
+#note{
+	width: 200px;
+	height: 200px;
+}
+
+#description{
+	display: block;
+}
+
+.description{
+	border: solid silver 1px;
+	width: 200px;
+}
+
+.delete{
+	display: block;
+}

@@ -1,0 +1,15 @@
+<div class='container'>
+	 	<div><p class='description'> {$_POST['description']} </p>
+	 	</div>
+		 	<form class='form' action='process2.php' method='post'>
+					<textarea name='note'>{$_POST['note']} </textarea>
+					<button class='update'>Update</button>
+					<input type='hidden' name='action' value='update'/>
+					<input type='hidden' name='id' value='{$_POST['id']}'/>
+			</form>
+
+			<form class='delete' id='delete' action='process2.php' method='post'>
+					<input type='hidden' name='delete_me' value='{$_POST['id']}'/>
+					<button class='delete'>Delete</button>
+			</form>
+</div>"
